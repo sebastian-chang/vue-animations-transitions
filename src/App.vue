@@ -4,7 +4,7 @@
       <component :is="slotProps.Component"></component>
     </transition>
   </router-view>
-  <!-- <div class="container">
+  <div class="container">
     <users-list></users-list>
   </div>
   <div class="container">
@@ -29,15 +29,15 @@
   </base-modal>
   <div class="container">
     <button @click="showDialog">Show Dialog</button>
-  </div> -->
+  </div>
 </template>
 
 <script>
-// import UsersList from './components/UsersList'
+import UsersList from './components/UsersList'
 
 export default {
   components: {
-    // UsersList,
+    UsersList,
   },
   data () {
     return {
